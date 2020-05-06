@@ -7,12 +7,11 @@ body{
 }
 header{
     background-image: var(--theme-color);
-    width: 90%;
+    width: 100%;
     margin: auto;
     text-align: center;
     color:black;
-    border-radius: 20px;
-    box-shadow: 2px 2px 6px 5px rgb(109, 108, 108);
+    
 }
 h1{
     font-family: 'Bungee Inline', cursive;
@@ -31,7 +30,8 @@ h3{
     background-color: rgb(134, 149, 150);
     float: right;
     padding: 7px 7px;
-    border-radius: 15px
+    border-radius: 15px;
+    box-shadow: 2px 2px 6px 5px rgb(109, 108, 108);
 }
 h2{
     font-family: 'Fredericka the Great', cursive;
@@ -54,9 +54,15 @@ figure{
 figure:hover{
     opacity: 0.8;
 }
+figure.active{
+    opacity: 0.6; 
+}
 .others{
     display: flex;
     flex-wrap: wrap;
+}
+.movie{
+    display: none;
 }
 .movie img{
     height: 300px;

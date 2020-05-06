@@ -2,9 +2,12 @@
 :root{
     --theme-color:linear-gradient(to right,#BE93C5,#7BC6CC);
 }
+body{
+    background-color: rgb(187, 193, 194);
+}
 header{
     background-image: var(--theme-color);
-    width: 80%;
+    width: 90%;
     margin: auto;
     text-align: center;
     color:black;
@@ -34,6 +37,7 @@ h2{
     font-family: 'Fredericka the Great', cursive;
     font-size: 30px;
     text-align: center;
+    display: block;
 }
 .movies{
     display: grid;
@@ -46,4 +50,26 @@ figure{
     font-family: 'Mirza', cursive;
     font-size: 20px;
     text-align: center;
+}
+figure:hover{
+    opacity: 0.8;
+}
+.others{
+    display: flex;
+    flex-wrap: wrap;
+}
+.movie img{
+    height: 300px;
+    margin-right: 30px;
+}
+p{
+    width: 50%;
+    float: right;
+    font-family: 'Mirza', cursive;
+    font-size: 25px;
+}
+.book{
+    width: 30%;
+    float: right;
+    background-color: #7BC6CC;
 }

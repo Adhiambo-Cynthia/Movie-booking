@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Fredericka+the+Great&family=Merienda+One&family=Mirza:wght@500&display=swap');
+:root{
+    --theme-color:linear-gradient(to right,#BE93C5,#7BC6CC);
+}
+header{
+    background-image: var(--theme-color);
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    color:black;
+    border-radius: 20px;
+    box-shadow: 2px 2px 6px 5px rgb(109, 108, 108);
+}
+h1{
+    font-family: 'Bungee Inline', cursive;
+}
+h3{
+    font-family: 'Merienda One', cursive;
+}
+.main-area{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.booking{
+    width: 59%;
+    background-color: rgb(134, 149, 150);
+    float: right;
+    padding: 7px 7px;
+    border-radius: 15px
+}
+h2{
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 30px;
+    text-align: center;
+}
+.movies{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+figure{
+    margin-left: 5px;
+    margin-right: 5px;
+    color: white;
+    font-family: 'Mirza', cursive;
+    font-size: 20px;
+    text-align: center;
+}

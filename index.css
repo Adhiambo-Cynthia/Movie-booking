@@ -69,13 +69,102 @@ figure.active{
     margin-right: 30px;
 }
 p{
-    width: 50%;
+    width: 60%;
     float: right;
     font-family: 'Mirza', cursive;
     font-size: 25px;
 }
-.book{
-    width: 30%;
-    float: right;
-    background-color: #7BC6CC;
+button{
+    padding: 5px 5px;
+    border-radius: 8px;
+    background-image: var(--theme-color);
+    color: white;
+    font-family:'Mirza', cursive ;
+    font-weight: bolder;
+    font-size: 20px;
 }
+button:hover{
+    opacity: 0.7;
+}
+.book{
+    width: 60%;
+    margin: auto;
+    background-color: #7BC6CC;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.seat {
+    background-color: #444451;
+    height: 12px;
+    width: 15px;
+    margin: 3px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+.seat.selected {
+    background-color: #6feaf6;
+  }
+  
+.seat.occupied {
+    background-color: #fff;
+  }
+.seat:nth-of-type(2) {  /* pseudocode selectors*/
+    margin-right: 18px;
+  }
+  
+.seat:nth-last-of-type(2) {
+    margin-left: 18px;
+  }
+.seat:not(.occupied):hover {
+    cursor: default;
+    transform: scale(1.2);
+    background-color: #adadbb;
+  }
+.showcase .seat:not(.occupied):hover {
+    cursor: default;
+    transform: scale(1);
+  }
+  
+.showcase {
+    width: 45%;
+    background: rgba(0, 0, 0, 0.1); /* sets the transparency*/
+    padding: 5px 5px;
+    border-radius: 5px;
+    color: #777;
+    list-style-type: none;
+}
+.showcase ul{
+    display: flex;
+}
+  
+.showcase li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 5px;
+  }
+  
+.showcase li small {
+    margin-left: 2px;
+  }  
+.row{
+      display: flex;
+  }
+.cinema{
+    perspective: 1000px;
+}
+.screen {
+    background-color: rgba(255, 255, 255, 0.589);
+    height: 70px;
+    width: 100%;
+    margin: 15px 0;
+    transform: rotateX(-45deg);
+    box-shadow: 0 3px 10px rgba(255, 255, 255, 0.7);
+  }
+  
+p.text span {
+    color: #e5e7e7;
+  }  

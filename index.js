@@ -16,3 +16,4 @@ function showTab(tabIndex){
     })
     tabContent[tabIndex].style.display="block"
 }
+showTab(2)

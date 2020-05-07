@@ -36,6 +36,8 @@ function updateSelectedSeats(){
     return selectedCount
      
 }
+//movie selected
+
 //button values
 function ticketPrice(index){
     tickets.forEach(function(tick){

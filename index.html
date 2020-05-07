@@ -88,7 +88,9 @@
                    sapiente nihil quisquam perspiciatis ipsum veritatis, 
                    a ut quam dolor provident, esse quae quasi doloribus temporibus eveniet qui fuga harum.
                    <br><br>
-                   <button type="submit" value="10" onclick="ticketPrice(0)">BUY A TICKET FOR $10</button>
+                   <span class="prices">TICKETS FOR 10$</span>
+                   <br><br>
+                    <span class="prices">TIME: 1pm</span>
                 </p>
                 </div>
                 
@@ -101,7 +103,9 @@
                     sapiente nihil quisquam perspiciatis ipsum veritatis, 
                     a ut quam dolor provident, esse quae quasi doloribus temporibus eveniet qui fuga harum.
                     <br><br>
-                    <button type="submit" value="15" onclick="ticketPrice(1)">BUY A TICKET FOR $15</button>
+                    <span class="prices">TICKETS FOR 13$</span>
+                    <br><br>
+                    <span class="prices">TIME: 4pm</span>
                 </p>
                 </div>
                 
@@ -114,13 +118,25 @@
                     sapiente nihil quisquam perspiciatis ipsum veritatis, 
                     a ut quam dolor provident, esse quae quasi doloribus temporibus eveniet qui fuga harum.
                     <br><br>
-                    <button type="submit" value="13" onclick="ticketPrice(2)">BUY A TICKET FOR $13</button>
+                    <span class="prices">TICKETS FOR 15$</span>
+                    <br><br>
+                    <span class="prices">TIME: 8pm</span>
                 </p>
                  
                 </div>
                 
              </div>
         </div>
+        <div class="bookings">
+            <div id="selecting">
+                <label>Pick A Movie</label>
+                <select id="options">
+                    <option value="10">Money Heist</option>
+                    <option value="13">Dynasty</option>
+                    <option value="15">Black AF</option>
+                </select>
+
+            </div>
         <div class="book">
             <h2>BOOK A SEAT</h2>
             <div class="showcase">
@@ -195,6 +211,7 @@
                 <p class="text">SEATS SELECTED<span id="count"> 0</span></p>
                 <p class="text">TOTAL COST: $<span id="total"> 0</span></p>
             
+        </div>
         </div>
     </div>
  <script src="index.js"></script>   

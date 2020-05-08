@@ -1,6 +1,6 @@
 # Movie Seat Booking :star_struck:
 Display movie choices and seats in a theater to select from in order to purchase tickets
-### Sills required
+### Skills required
 Knowledge of:
 * HTML SVG'S
 * JavaScript Web Storages
@@ -13,4 +13,4 @@ Knowledge of:
 * User can not select occupied seats
 * Number of seats and price will update
 * Save seats, movie and price to local storage so that UI is still populated on refresh
-Project Inspiration from Brad Traversy :sunglasses:
+#### Project Inspiration from Brad Traversy :sunglasses:
